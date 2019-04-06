@@ -5,6 +5,13 @@
     Author URL: https://bootstrapmade.com
 */
 
+
+.item {
+  display: none !important;
+  position: relative !important;
+  .transition(.2s ease-in-out left) !important;
+}
+
 body {
   line-height: 1.5;
   font-family: 'Open Sans', sans-serif;
