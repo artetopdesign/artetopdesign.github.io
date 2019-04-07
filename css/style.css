@@ -50,8 +50,16 @@ h1, h2, h3, h4, h5, h6 {
   background-color: transparent;
 }
 
+@media (max-width:768px){
+  .main-header{
+
+  }
+}
+
 .main-header {
-  background: url(../img/banner.jpeg) no-repeat;
+  /* background: url(../img/banner.jpeg) no-repeat; */
+  background: url(../img/01.jpg) no-repeat;
+  /* background-size: 50% 50%; */
   background-size: cover;
   min-height: 610px;
 }
@@ -101,6 +109,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
+
+  .logo-img {
+    text-align: center;
+    height: 70px;
+  }
+
 	.navbar-collapse {
 		background: rgba(0, 0, 0, 0.8);
 		border-top: 0;
@@ -351,7 +365,10 @@ a, a:hover {
   color: #FFD34E;
 }
 
+@media () {}
+
 .cont-title {
+
   font-size: 24px;
   padding: 15px 0px;
 }
